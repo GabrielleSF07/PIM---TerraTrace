@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import type { ReactNode } from 'react'
 import './disciplines.css'
 
@@ -54,3 +54,4 @@ export default function Disciplines() {
     </Chapter>
   </div>
 }
+

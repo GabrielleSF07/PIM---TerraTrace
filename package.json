@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:pages": "tsc -b && vite build --outDir docs --emptyOutDir false",
     "lint": "oxlint",
     "test": "node --test --test-isolation=none tests/terratrace.test.mjs",
     "preview": "vite preview"
